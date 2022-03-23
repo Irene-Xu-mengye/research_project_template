@@ -1,0 +1,41 @@
+---
+title: "Title"
+date: "Last updated: `r Sys.Date()`"
+author: "Irene"
+output:
+  html_document:
+    theme: yeti
+    code_folding: hide
+    toc: true
+    toc_depth: 6
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+---
+<br/>
+**The purpose of this file is ...**    
+
+* Data was downloaded ...
+<br/>
+
+Tests included:      
+1. ...
+2. ...
+
+<br/>  
+```{r set-up, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, echo = FALSE)
+library(tidyverse)
+library(gridExtra)
+source('https://www.dropbox.com/s/bmhdm3d5xa7j7oa/json_splitter.R?raw=1')
+```
+
+#### **Descriptives**
+
+|Source| Test    |N  |Mean| Median | SD   | Min    | Max   |
+|:-----|:--------|:--|:---|:-------|:-----|:-------|:------|
+
+```{r}
+
+```
+
